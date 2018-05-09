@@ -1,1 +1,4 @@
-
+def f(w):
+  if len(w)<1:
+    return w
+  return f(w[1:])+w[0]
