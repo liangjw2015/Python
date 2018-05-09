@@ -1,5 +1,0 @@
-def fans(a):
-    if len(a)<1:
-      return a
-    return fans(a[1:])+a[0]
-
